@@ -1,6 +1,6 @@
 .theme-1,
 .theme-2 {
-  background-image: url(../img/black-panther.jpeg);
+  background-image: url(../img/background/black-panther.jpeg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,9 +44,12 @@
 }
 
 .button-config,
-.button-config-sp {
+.button-config-sp,
+.dropdown-menu  {
   background-color: transparent;
   border-color: rgb(129, 129, 219);
+  font-family: 'Sniglet', cursive;
+  font-family: 'Indie Flower', cursive;
 }
 
 .button-config:hover {
@@ -55,7 +58,7 @@
 }
 
 .theme-2 {
-  background-image: url(../img/dark-flower.jpg);
+  background-image: url(../img/background/dark-flower.jpg);
   opacity: 0.85;
 }
 
@@ -90,11 +93,5 @@
 }
 
 .button-config-sp:hover {
-  background: rgba(102, 102, 190, 0.4);
-}
-.dropdown-menu {
-  background: rgba(102, 102, 190, 0.4);
-}
-.themes-dropdown {
   background: rgba(102, 102, 190, 0.4);
 }
