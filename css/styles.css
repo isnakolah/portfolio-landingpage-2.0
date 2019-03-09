@@ -1,4 +1,4 @@
-.theme-1,
+.theme-editor,
 .theme-special {
   background-image: url(../img/background/black-panther.jpeg);
   height: 100vh;
@@ -44,7 +44,7 @@
 }
 
 .button-config-editor,
-.button-config-dropdown,
+.button-config-dropdown-editor,
 .dropdown-menu {
   background-color: transparent;
   border-color: rgb(129, 129, 219);
@@ -63,7 +63,7 @@
 }
 
 /*Theme two buttons*/
-.button-config-dropdown {
+.button-config-dropdown-editor {
   background: rgba(40, 43, 40, 0.7);
   border-color: rgb(65, 65, 70);
   font-family: 'Comfortaa', cursive;
@@ -73,7 +73,7 @@
   filter: brightness(100%);
 }
 
-.button-config-dropdown:hover {
+.button-config-dropdown-editor:hover {
   background: linear-gradient(rgba(181, 247, 236, 0.3), rgba(181, 247, 236, 0.3));
   color: white;
 }
@@ -95,13 +95,13 @@
   padding-right: 1rem;
 }
 
-.button-config-dropdown:hover,
+.button-config-dropdown-editor:hover,
 .dropdown-item:hover,
-.show>.button-config-dropdown.dropdown-toggle {
+.show>.button-config-dropdown-editor.dropdown-toggle {
   background: rgba(102, 102, 190, 0.4);
 }
 
-.show>.button-config-dropdown.dropdown-toggle {
+.show>.button-config-dropdown-editor.dropdown-toggle {
   border-color: rgb(129, 129, 219);
 }
 

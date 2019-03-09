@@ -12,7 +12,7 @@
 </head>
  
 <body>
-  <div class="container-fluid bg-dark no-pad theme-1" id="doc">
+  <div class="container-fluid bg-dark no-pad theme-editor" id="doc">
     <div class="welcome text-center" id="welcome-text">
       <h1>Welcome to this awesome place!</h1>
     </div>
@@ -24,9 +24,10 @@
     <!--Split dropleft button -->
     <div class="btn-group" id="dropleft-1">
       <div class="btn-group dropleft " role="group">
-        <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-sm button-config-dropdown btn-secondary button-config-dropdown"
+        <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-sm btn-secondary button-config-dropdown-editor"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only ">Toggle</span>
         </button>
+        <!--Dropdown menu-->
         <div class="dropdown-menu themes-dropdown " id="dropdown">
           <button class="dropdown-item text-light" type="button" id="editor">Editor's Theme</button>
           <button class="dropdown-item text-light" type="button" id="dark">Dark Theme</button>
@@ -34,7 +35,7 @@
           <button class="dropdown-item text-light" type="button" id="special">Special Theme</button>
         </div>
       </div>
-      <button type="button" class="btn btn-secondary btn-sm button-config-sp" id="themes-title">
+      <button type="button" class="btn btn-secondary btn-sm button-config-dropdown-editor" id="themes-title">
         Themes
       </button>
     </div>
