@@ -10,21 +10,21 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet|Josefin+Sans|Comfortaa|Play" rel="stylesheet">
 </head>
-
+ 
 <body>
   <div class="container-fluid bg-dark no-pad theme-1" id="doc">
     <div class="welcome text-center" id="welcome-text">
       <h1>Welcome to this awesome place!</h1>
     </div>
     <div class="button-row">
-      <input type="button" class="btn btn-info button-config" value="View my Portfolio." id="portfolio">
-      <input type="button" class="btn btn-info button-config" value="Story of my Life." id="story">
-      <input type="button" class="btn btn-info button-config" value="Personal Blog." id="blog">
+      <input type="button" class="btn btn-info button-config-editor" value="View my Portfolio." id="portfolio">
+      <input type="button" class="btn btn-info button-config-editor" value="Story of my Life." id="story">
+      <input type="button" class="btn btn-info button-config-editor" value="Personal Blog." id="blog">
     </div>
     <!--Split dropleft button -->
     <div class="btn-group" id="dropleft-1">
       <div class="btn-group dropleft " role="group">
-        <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-sm button-config-sp btn-secondary button-config-sp"
+        <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-sm button-config-dropdown btn-secondary button-config-dropdown"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only ">Toggle</span>
         </button>
         <div class="dropdown-menu themes-dropdown " id="dropdown">
@@ -34,7 +34,7 @@
           <button class="dropdown-item text-light" type="button" id="special">Special Theme</button>
         </div>
       </div>
-      <button type="button" class="btn btn-secondary btn-sm button-config-sp">
+      <button type="button" class="btn btn-secondary btn-sm button-config-sp" id="themes-title">
         Themes
       </button>
     </div>

@@ -1,5 +1,5 @@
 .theme-1,
-.theme-2 {
+.theme-special {
   background-image: url(../img/background/black-panther.jpeg);
   height: 100vh;
   background-size: cover;
@@ -43,8 +43,8 @@
   font-family: 'Indie Flower', cursive;
 }
 
-.button-config,
-.button-config-sp,
+.button-config-editor,
+.button-config-dropdown,
 .dropdown-menu {
   background-color: transparent;
   border-color: rgb(129, 129, 219);
@@ -52,18 +52,18 @@
   font-family: 'Indie Flower', cursive;
 }
 
-.button-config:hover {
+.button-config-editor:hover {
   background-color: rgb(102, 102, 190);
   margin-bottom: 0.25rem;
 }
 
-.theme-2 {
+.theme-special {
   background-image: url(../img/background/vegetation.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/background/vegetation.jpg');
 }
 
 /*Theme two buttons*/
-.button-config-2 {
+.button-config-dropdown {
   background: rgba(40, 43, 40, 0.7);
   border-color: rgb(65, 65, 70);
   font-family: 'Comfortaa', cursive;
@@ -73,12 +73,12 @@
   filter: brightness(100%);
 }
 
-.button-config-2:hover {
+.button-config-dropdown:hover {
   background: linear-gradient(rgba(181, 247, 236, 0.3), rgba(181, 247, 236, 0.3));
   color: white;
 }
 
-.welcome-2 {
+.welcome-theme-special {
   font-family: 'Comfortaa', cursive;
   background-image: -webkit-linear-gradient(rgb(231, 235, 231), rgb(138, 168, 162));
   -webkit-background-clip: text;
@@ -95,13 +95,13 @@
   padding-right: 1rem;
 }
 
-.button-config-sp:hover,
+.button-config-dropdown:hover,
 .dropdown-item:hover,
-.show>.button-config-sp.dropdown-toggle {
+.show>.button-config-dropdown.dropdown-toggle {
   background: rgba(102, 102, 190, 0.4);
 }
 
-.show>.button-config-sp.dropdown-toggle {
+.show>.button-config-dropdown.dropdown-toggle {
   border-color: rgb(129, 129, 219);
 }
 
