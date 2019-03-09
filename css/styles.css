@@ -1,0 +1,100 @@
+.theme-1,
+.theme-2 {
+  background-image: url(../img/black-panther.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  --webkit-background-size: cover;
+  --moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+}
+
+.welcome,
+.welcome-2 {
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgb(228, 92, 149), rgb(212, 188, 188));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Sniglet', cursive;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.button-row {
+  line-height: 100px;
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-family: 'Sniglet', cursive;
+  font-family: 'Indie Flower', cursive;
+}
+
+.button-config,
+.button-config-sp {
+  background-color: transparent;
+  border-color: rgb(129, 129, 219);
+}
+
+.button-config:hover {
+  background-color: rgb(102, 102, 190);
+  margin-bottom: 0.25rem;
+}
+
+.theme-2 {
+  background-image: url(../img/dark-flower.jpg);
+  opacity: 0.85;
+}
+
+.button-config-2 {
+  background: rgba(40, 43, 40, 0.7);
+  border-color: rgb(65, 65, 70);
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Play', sans-serif;
+  color: rgb(181, 247, 236);
+}
+
+.button-config-2:hover {
+  background-color: rgb(38, 38, 46);
+}
+
+.welcome-2 {
+  font-family: 'Comfortaa', cursive;
+  background: -webkit-linear-gradient(rgb(103, 228, 92), rgb(212, 188, 188));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-group {
+  float: right;
+
+  padding-bottom: none;
+}
+
+#dropleft-1 {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+
+.button-config-sp:hover {
+  background: rgba(102, 102, 190, 0.4);
+}
+.dropdown-menu {
+  background: rgba(102, 102, 190, 0.4);
+}
+.themes-dropdown {
+  background: rgba(102, 102, 190, 0.4);
+}
