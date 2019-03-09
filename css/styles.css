@@ -58,32 +58,35 @@
 }
 
 .theme-2 {
-  background-image: url(../img/background/dark-flower.jpg);
-  opacity: 0.85;
+  background-image: url(../img/background/vegetation.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/background/vegetation.jpg');
 }
 
+/*Theme two buttons*/
 .button-config-2 {
   background: rgba(40, 43, 40, 0.7);
   border-color: rgb(65, 65, 70);
   font-family: 'Comfortaa', cursive;
   font-family: 'Play', sans-serif;
   color: rgb(181, 247, 236);
+  opacity: 1.0;
+  filter: brightness(100%);
 }
 
 .button-config-2:hover {
-  background-color: rgb(38, 38, 46);
+  background: linear-gradient(rgba(181, 247, 236, 0.3), rgba(181, 247, 236, 0.3));
+  color: white;
 }
 
 .welcome-2 {
   font-family: 'Comfortaa', cursive;
-  background: -webkit-linear-gradient(rgb(103, 228, 92), rgb(212, 188, 188));
+  background-image: -webkit-linear-gradient(rgb(231, 235, 231), rgb(138, 168, 162));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .btn-group {
   float: right;
-
   padding-bottom: none;
 }
 
@@ -102,7 +105,6 @@
   border-color: rgb(129, 129, 219);
 }
 
-.button-config:hover,
 .dropdown-item:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
